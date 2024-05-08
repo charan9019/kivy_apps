@@ -270,7 +270,7 @@ fullscreen = 0
 
 # buildozer.
 
-# android.accept_sdk_license = False
+android.accept_sdk_license = True
 
 
 
