@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Charan Calcy
+title = CharanCalcy
 
 # (str) Package name
 package.name = charanapp
@@ -136,7 +136,7 @@ fullscreen = 0
 # agreements. This is intended for automation only. If set to False,
 # the default, you will be shown the license when first running
 # buildozer.
-# android.accept_sdk_license = False
+android.accept_sdk_license = True
 
 # (str) Android entry point, default is ok for Kivy-based app
 #android.entrypoint = org.kivy.android.PythonActivity
