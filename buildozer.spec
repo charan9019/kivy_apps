@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = py,kv,png,jpg,atlas
 
 # (list) Application requirements
-requirements = python3,kivy
+requirements = python3,kivy==2.0.0
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
