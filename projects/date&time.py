@@ -7,20 +7,50 @@ from kivy.lang import Builder
 
 kv_code = ("""
 <TimeAndDateScreen>:
+    canvas.before:
+        Color:
+            rgba: 1,1,1,1
+        Rectangle:
+            pos:self.pos
+            size:self.size
     Label:
         id: TimeScreen
         text: " "
         font_size: 40
         size_hint: None,None
         pos:200,400
-        
-
+        color:0,0,0,1
+        italic: True
+          
     Label:
         id: DateScreen
         text: " "
         font_size: 40
         size_hint: None,None
         pos:600,400
+        color:0,0,0,1
+        italic: True
+           
+    Widget:
+        canvas:
+            Color:
+                rgba: 0.5, 0.5, 0.5, 1
+            Rectangle:
+                pos:450,700
+                size:300,100
+            Color:
+                rgba: 0, 0, 0, 0.5
+            Line:
+                width: 2
+                rectangle: 450, 700, 300, 100
+           
+    Label:
+        text: "Date and Time"
+        font_size: 30
+        size_hint: None, None
+        pos: 450,700
+        size: 300, 100
+        italic: True
 """)
 Builder.load_string(kv_code) 
 
