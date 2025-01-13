@@ -1,2 +1,2 @@
-# kivy_app
-kivy_app to apk converter 
+# kivy_apps
+Using kivy , kivymd  Apps in python 
